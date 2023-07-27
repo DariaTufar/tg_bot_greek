@@ -1,0 +1,30 @@
+{
+  "name": "greek-bot",
+  "version": "1.0.0",
+  "description": "Telegram Bot",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DariaTufar/tg_bot_greek.git"
+  },
+  "keywords": [
+    "bot",
+    "telegram",
+    "admin"
+  ],
+  "author": "Daria Shenkevych",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DariaTufar/tg_bot_greek/issues"
+  },
+  "homepage": "https://github.com/DariaTufar/tg_bot_greek#readme",
+  "dependencies": {
+    "dotenv": "^8.6.0",
+    "telegraf": "^3.36.0"
+  }
+}
